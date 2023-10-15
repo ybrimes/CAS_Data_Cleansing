@@ -1,5 +1,5 @@
 Vorgehen
-- CSV für CSV in ein DataFrame laden
+- CSV Lokal speichern für CSV in ein DataFrame laden
 - Formatierung mittes .info() und .head() prüfen
 - Damit ein kombiniertes DataFrame erstellt werden kann, müssen die Zeilen in gleicher Formatierung. Wie meinem Code zu entnehmen ist (sonst multipliziert sich die Matrize und es droht NaN), musste ich diverse Anpassungen vornehmen. Nachfolgend eine Auflistung:
 - Header angleichen
