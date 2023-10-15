@@ -1,5 +1,8 @@
 Vorgehen
-- CSV Lokal speichern für CSV in ein DataFrame laden
+- CSV lokal speichern
+- Jupyter Notebook laden
+- Pfad zu jeweiliger CSV Datei anpassen
+- Jedes CSV Datei musste einzeln geprüft werden, dazu:
 - Formatierung mittes .info() und .head() prüfen
 - Damit ein kombiniertes DataFrame erstellt werden kann, müssen die Zeilen in gleicher Formatierung. Wie meinem Code zu entnehmen ist (sonst multipliziert sich die Matrize und es droht NaN), musste ich diverse Anpassungen vornehmen. Nachfolgend eine Auflistung:
 - Header angleichen
