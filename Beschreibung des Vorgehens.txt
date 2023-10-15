@@ -1,0 +1,12 @@
+Vorgehen
+- CSV für CSV in ein DataFrame laden
+- Formatierung mittes .info() und .head() prüfen
+- Damit ein kombiniertes DataFrame erstellt werden kann, müssen die Zeilen in gleicher Formatierung. Wie meinem Code zu entnehmen ist (sonst multipliziert sich die Matrize und es droht NaN), musste ich diverse Anpassungen vornehmen. Nachfolgend eine Auflistung:
+- Header angleichen
+- Boolen-Nrs zu Integer
+- Strings zu Integer wechseln
+- Ein CSV ohne Bildbezeichnung musste entfern werden
+- Ein CSV das keine Binärwerte auswies, habe ich ebenfalls weggelassen, da ich nicht selber einen Schwellenwert für die Zurodnung zu 0 und 1 annehmen wollte
+
+Dann wurden die DataFrame kombiniert, ich habe dazu jeweils immer 1 Frame hinzugefügt und geprüft ob das Format stimmt
+Als letzter Schritt habe ich das kombinierte DataFrame erstellt
